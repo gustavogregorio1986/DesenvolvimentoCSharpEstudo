@@ -26,7 +26,7 @@ namespace Aula03
 
             //Console.WriteLine("A soma de " + num1 + "com " + num2 + " é igual a: " + res);
 
-            Console.WriteLine("A soma de " + num1 + "com " + num2 + " é igual a: " + num1*num2);
+            Console.WriteLine("A soma de " + num1 + " com " + num2 + " é igual a: " + num1*num2);
         }
     }
 }
