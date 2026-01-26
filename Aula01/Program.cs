@@ -7,6 +7,27 @@ namespace Aula01
         static void Main(string[] args)
         {
             Console.WriteLine("Ola Mundo!");
+
+            Console.WriteLine("----------------------------------------------");
+
+            string nome = "Gustavo";
+            Console.WriteLine("Olá, " + nome + "!");
+
+            Console.WriteLine("-----------------------------------------------");
+
+            Console.WriteLine("Digite um número:");
+            int numero = int.Parse(Console.ReadLine());
+
+            if (numero % 2 == 0)
+            {
+                Console.WriteLine("O número " + numero + " é par.");
+            }
+            else
+            {
+                Console.WriteLine("O número " + numero + " é ímpar.");
+            }
+
+
         }
     }
 }
