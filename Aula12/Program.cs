@@ -10,7 +10,7 @@ namespace Aula12
             //> m >= >= == !-
 
             int n1, n2, n3, n4, res;
-            res=n1=2=n3=n4=0;
+            res=n1=n2=n3=n4=0;
 
             Console.WriteLine("Digite a nota 1: ");
             n1 = int.Parse(Console.ReadLine());
