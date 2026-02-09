@@ -2,7 +2,7 @@
 
 namespace Aula24
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -17,22 +17,14 @@ namespace Aula24
 
             int v1, v2, r;
 
-            v1=int.Parse(Console.ReadLine());
-            v1 = int.Parse(Console.ReadLine());
+            //v1=int.Parse(Console.ReadLine());
+            //v1 = int.Parse(Console.ReadLine());
 
-            somar(v1, v2);
-            r = soma(v1, v2);
-            Console.WriteLine("A soma de {0} e {1} é: {2}", v1,v2,r);
+            //somar(v1, v2);
+            //r = soma(v1, v2);
+            //Console.WriteLine("A soma de {0} e {1} é: {2}", v1,v2,r);
         }
 
-        static double nome(int n1, int n2, string texto)
-        {
-            double t;
-            return t;
-        }
-        {
-
-        }
 
         static void cfb()
         {
@@ -56,3 +48,4 @@ namespace Aula24
         }
     }
 }
+

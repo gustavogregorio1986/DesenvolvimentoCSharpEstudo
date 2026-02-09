@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.0.11205.157 d18.0
+VisualStudioVersion = 18.0.11205.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula01", "Aula01\Aula01.csproj", "{27D5217C-9F88-4D68-A731-B4AF930C1246}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula23", "Aula23\Aula23.csproj", "{77D9CB54-02C8-4830-8D30-0E1EE7F6CF1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula24", "Aula24\Aula24.csproj", "{5FB47BE7-DE50-4807-847B-E523C82E5089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUla25", "AUla25\AUla25.csproj", "{48F70705-81BF-4F94-ADBB-0AC145C368CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{5FB47BE7-DE50-4807-847B-E523C82E5089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FB47BE7-DE50-4807-847B-E523C82E5089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB47BE7-DE50-4807-847B-E523C82E5089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F70705-81BF-4F94-ADBB-0AC145C368CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F70705-81BF-4F94-ADBB-0AC145C368CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F70705-81BF-4F94-ADBB-0AC145C368CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F70705-81BF-4F94-ADBB-0AC145C368CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
