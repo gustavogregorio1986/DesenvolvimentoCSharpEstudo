@@ -6,23 +6,21 @@ namespace AUla25
     {
         static void Main(string[] args)
         {
-            int num = 50;
-            dobrar1(num1);
-            Console.WriteLine(num);
+            int divid, divis, quoc, rest;
+            divid = 10;
+            divis = 5;
+            quoc = divite(divid, divis, out rest);
 
-            int num1 = 50;
-            dobrar1(num1);
-            Console.WriteLine(num1);
+            Console.WriteLine("{0}/{1}:quociente={2} e resto={3}", divid, divis, quoc, rest);
+
         }
 
-        static void dobrar1(ref int valor)
+        static int divite(int dividendo, int divisor, out int resto)
         {
-            valor *= 2;
-        }
-
-        static void dobrar(ref int valor)
-        {
-            valor *= 2;
+            int quociente;
+            quociente = dividendo / divisor;
+            resto = dividendo % divisor;
+            return quociente;
         }
     }
 }
