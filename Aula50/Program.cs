@@ -27,12 +27,12 @@ namespace Aula50
             // Criando delegate para soma
             Op d1 = new Op(Mat.soma);
             res = d1(10, 5);
-            Console.WriteLine("Soma: {0}" + res);
+            Console.WriteLine("Soma: " + res);
 
             // Criando delegate para multiplicação
             Op d2 = new Op(Mat.mult);
             res = d2(10, 5);
-            Console.WriteLine("Multiplicação: {0}" + res);
+            Console.WriteLine("Multiplicação: " + res);
         }
     }
 }
