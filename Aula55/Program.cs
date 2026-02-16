@@ -75,12 +75,12 @@ namespace Aula55
                 Console.WriteLine("O valor {0} não esta na coleção", valor);
             }
 
-            Dictionary<int, string>.ValueCollection va = veiculos.Values;
+            //Dictionary<int, string>.ValueCollection va = veiculos.Values;
 
-            foreach (KeyValuePair<int, string> v in veiculos)
-            {
-                Console.WriteLine(v.Key);
-            }
+            //foreach (KeyValuePair<int, string> va in veiculos)
+            //{
+             //   Console.WriteLine(va.Key);
+            //}
 
             Dictionary<int, string>.ValueCollection valores = veiculos.Values;
 
